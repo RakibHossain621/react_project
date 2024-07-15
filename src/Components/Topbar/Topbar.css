@@ -1,0 +1,25 @@
+.topbar {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    background: #2947A9;
+    max-width: 90em;
+    height: 40px;
+}
+
+.topbar_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbar_icon span{
+color: var(--Text-Light, #FFF);
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+ 

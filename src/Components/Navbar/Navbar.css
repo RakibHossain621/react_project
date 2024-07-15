@@ -29,3 +29,12 @@
     color: #ffff;
     transition: all 0.5s ease-in-out;
 }
+
+.list_item li a{
+color: var(--Primary-Text, #211F1E);
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal
+}

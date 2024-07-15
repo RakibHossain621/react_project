@@ -1,0 +1,68 @@
+.hero{
+    background-image: url('/public/image\ .png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 42rem;
+    padding-bottom: 4rem;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    max-width: 77.5em;
+    margin: 0 auto;
+    padding: 1em;
+  }
+  
+  .sec_padding {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+
+  .roofing_left{
+    width: 45%;
+  }
+
+  .roofing_right{
+    width: 45%;
+  }
+  .roofing_right img{
+  width: 610px;
+  }
+  .roofing_wrapper {
+    display: flex;
+    gap: 5em;
+}
+
+.roofing_left h1{
+color: var(--Primary-Color, #2947A9);
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.roofing_left p{
+color: var(--Primary-Text, #211F1E);
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.second_head p{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.second_head span{
+  color: var(--Red, #FF5733);
+ font-family: Montserrat;
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: normal;
+}
