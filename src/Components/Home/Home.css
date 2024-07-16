@@ -1,5 +1,5 @@
 .hero{
-    background-image: url('/public/image\ .png');
+    background-image: url('/public/home.png');
     background-size: cover;
     background-position: center;
     padding-top: 42rem;
@@ -65,4 +65,12 @@ line-height: normal;
  font-style: normal;
  font-weight: 700;
  line-height: normal;
+}
+
+.hero_left{
+  width: 45%;
+}
+
+.hero_right{
+  width: 45%;
 }
