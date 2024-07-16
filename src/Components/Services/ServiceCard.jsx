@@ -1,14 +1,14 @@
 import React from 'react'
 import RightArrowIcon from '../../Icon/RightArrowIcon'
 
-const ServiceCard = ({ image, svg, title, pera, subtitle }) => {
+const ServiceCard = ({ image, title, pera, subtitle }) => {
   return (
     <div className='singleServices shadow rounded-md'>
-      <div className="serviceCard relative">
+      <div className="serviceCard">
         <img className='w-full max-w-full' src={image} alt="" />
-        {svg}
+       
       </div>
-      <div className='p-6'>
+      <div className='p-8'>
         <div className="Description">
           <h1>{title}</h1>
           <p> {pera}</p>
@@ -17,6 +17,7 @@ const ServiceCard = ({ image, svg, title, pera, subtitle }) => {
           <h1> {subtitle} </h1>
           <RightArrowIcon></RightArrowIcon>
         </div>
+       
       </div>
     </div>
   )

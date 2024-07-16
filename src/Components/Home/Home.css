@@ -2,8 +2,6 @@
     background-image: url('/public/home.png');
     background-size: cover;
     background-position: center;
-    padding-top: 42rem;
-    padding-bottom: 4rem;
     background-repeat: no-repeat;
 }
 
@@ -19,7 +17,10 @@
     padding-bottom: 4rem;
   }
 
-
+  .roofing.sec_padding {
+    border-top: 1px solid #00000063;
+    margin-top: 3em;
+}
   .roofing_left{
     width: 45%;
   }
@@ -68,9 +69,178 @@ line-height: normal;
 }
 
 .hero_left{
-  width: 45%;
+  width: 100%;
+  margin-top: 4em;
 }
 
 .hero_right{
-  width: 45%;
+  width: 100%;
+  background: white;
+  padding: 2.5em;
+}
+
+
+.hero_left h1{
+font-family: Montserrat;
+font-size: 64px;
+font-weight: 700;
+line-height: 78.02px;
+text-align: left;
+color: #000000;
+
+}
+
+.hero_left h1 span{
+  font-family: Montserrat;
+ font-size: 59px;
+ font-weight: 700;
+ line-height: 78.02px;
+ text-align: left;
+ color: #FF5733;
+
+}
+
+.hero_left p{
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 500;
+line-height: 29.26px;
+text-align: left;
+color: #000000;
+margin-top: 2em;
+
+}
+
+
+
+
+
+.form_container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.form_container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.from input,
+.from textarea {
+  margin-bottom: 10px;
+  padding: 16px 18px;
+  border: 1px solid #2947A9;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 100%;
+  margin-top: 1em;
+}
+.inputfiled{
+  gap: 28px;
+}
+.herobtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+.hero_btn {
+  background-color: #2947A9;
+  color: white;
+  border: none;
+  padding: 21px 87px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 2em;
+}
+
+.hero_btn {
+  background-color: #0056b3;
+} 
+
+
+
+
+.from_conatiner h2{
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
+  text-align: center;
+  color: #2947A9;
+  margin-bottom: 1em;
+}
+
+
+
+.input_label{
+  display: flex;
+  flex-direction: column;
+}
+
+.input_label label{
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.94px;
+color: #2947A9;
+
+}
+
+.serviceIcon {
+  display: flex;
+  gap: 1em;
+}
+
+
+.Description h1{
+font-family: Montserrat;
+font-size: 32px;
+font-weight: 500;
+line-height: 39.01px;
+text-align: left;
+
+}
+
+.Description p {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26.38px;
+  text-align: left;
+  max-width: 367px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.serviceIcon h1{
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.38px;
+text-align: left;
+
+}
+
+
+
+
+  .right {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

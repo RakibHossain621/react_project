@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Roffing = () => {
   return (
-    <div className='sec_padding'>
+    <div className='roofing sec_padding'>
         <div className="container">
           <div className="roofing_wrapper">
             <div className="roofing_left">

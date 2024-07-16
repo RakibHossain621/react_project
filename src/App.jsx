@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Topbar from './Components/Topbar/Topbar';
-import Home from './Components/Home/Home';
+import Footer from './Components/Home/Footer';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Topbar />
       <Navbar />
       <Outlet />
-      <Home></Home>
+      <Footer/>
     </div>
   );
 }

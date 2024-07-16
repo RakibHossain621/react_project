@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Home/Footer'
 
 const About = () => {
   return (
