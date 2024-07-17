@@ -3,7 +3,7 @@ import RightArrowIcon from '../../Icon/RightArrowIcon'
 
 const ServiceCard = ({ image, title, pera, subtitle }) => {
   return (
-    <div className='singleServices shadow rounded-md'>
+    <div className='singleServices shadow rounded-[10px]'>
       <div className="serviceCard">
         <img className='w-full max-w-full' src={image} alt="" />
        

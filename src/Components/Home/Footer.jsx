@@ -80,7 +80,7 @@ const Footer = () => {
                                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
                                     <path d="M10.2139 0C6.07199 0 2.71387 3.35813 2.71387 7.5C2.71387 9.13094 3.24855 10.6275 4.1373 11.8531C4.15324 11.8825 4.15574 11.9153 4.17387 11.9434L9.17387 19.4434C9.40574 19.7913 9.79637 20 10.2139 20C10.6314 20 11.022 19.7913 11.2539 19.4434L16.2539 11.9434C16.2723 11.9153 16.2745 11.8825 16.2904 11.8531C17.1792 10.6275 17.7139 9.13094 17.7139 7.5C17.7139 3.35813 14.3557 0 10.2139 0ZM10.2139 10C8.83324 10 7.71387 8.88062 7.71387 7.5C7.71387 6.11937 8.83324 5 10.2139 5C11.5945 5 12.7139 6.11937 12.7139 7.5C12.7139 8.88062 11.5945 10 10.2139 10Z" fill="#211F1E" />
                                 </svg>
-                                <p>Black Lake RoadKissimmee, FL 34747US</p>
+                                <p className='footer23'>Black Lake RoadKissimmee, FL 34747US</p>
                             </div>
 
                             <div className="footer_li_icon">
@@ -94,7 +94,8 @@ const Footer = () => {
                     </div>
                     <div className="footer-column">
                         <div className="footer-title pb-5">Our Services</div>
-                        <ul className="footer-services">
+                          <div className="footer_wrap_service">
+                          <ul className="footer-services">
                             <div className="footer_li_icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7596 1.66663C15.362 1.66663 19.0929 5.39759 19.0929 9.99996C19.0929 14.6023 15.362 18.3333 10.7596 18.3333C6.15723 18.3333 2.42627 14.6023 2.42627 9.99996C2.42627 5.39759 6.15723 1.66663 10.7596 1.66663ZM10.7596 5.83329C8.45842 5.83329 6.59294 7.69877 6.59294 9.99996C6.59294 12.3011 8.45842 14.1666 10.7596 14.1666C13.0608 14.1666 14.9263 12.3011 14.9263 9.99996C14.9263 7.69877 13.0608 5.83329 10.7596 5.83329Z" fill="#211F1E" />
@@ -125,12 +126,8 @@ const Footer = () => {
                                 </svg>
                                 <li>Roof Repairs</li>
                             </div>
-
-
-
-
-
-                        </ul>
+                       </ul>
+                          </div>
                     </div>
                     <div className="footer-column">
                         <div className="footer-title pb-5 ">Our Services</div>
@@ -166,11 +163,7 @@ const Footer = () => {
                                 <li>Contact Us</li>
                             </div>
 
-
-
-
-
-                        </ul>
+                       </ul>
                     </div>
                 </div>
             </div>

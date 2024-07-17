@@ -1,5 +1,4 @@
 .flex_container {
-    max-width: 90em;
     display: flex;
     justify-content: space-between;
     align-items: center;

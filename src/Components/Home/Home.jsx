@@ -17,7 +17,10 @@ const Home = () => {
       {/* service section start */}
       <div className='sec_padding'>
         <div className="container">
-          <div className="service_wrapper grid grid-cols-2 gap-8">
+          <div className="service_heading">
+            <h1>Our Services</h1>
+          </div>
+          <div className="service_wrapper grid grid-cols-2 gap-[120px]">
             <ServiceCard
               image='service1.jpg'
               title='Flat Roofing'
