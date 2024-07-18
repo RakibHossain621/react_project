@@ -28,11 +28,9 @@ const navList = [
 
 const Navbar = () => {
     const [mobileIcon, setMobileIcon] = useState(false)
-     console.log(mobileIcon)
    const handleClick = () =>{
     setMobileIcon(!mobileIcon)
    }
-   console.log(mobileIcon)   
   return (
     <header>
       <div className='flex_container'>
@@ -46,8 +44,8 @@ const Navbar = () => {
      <rect x="90.7778" y="35.8889" width="116.111" height="2.11111" fill="#211F1E"/>
      </svg>
         </div>
-         {
-          !mobileIcon ? (
+         {/* {
+          mobileIcon ? (
             <ul className='list_item'>
           {navList.map(({ title, path }) => (
             <li key={title}>
@@ -57,7 +55,7 @@ const Navbar = () => {
           <button className='contact_btn'>Contact us</button>
         </ul>
           ) : ""
-         }
+         } */}
 
         <ul className='list_item'>
           {navList.map(({ title, path }) => (
