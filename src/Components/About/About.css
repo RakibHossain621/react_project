@@ -1,0 +1,76 @@
+.about{
+    background-image: url('/public/about.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.about_heading{
+color: var(--Primary-Color, #2947A9);
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+.about_left h1{
+color:#FFF;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.about_left p{
+color:#FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 2em;
+}
+.about_right img{
+    width: 500px;
+}
+
+.about_left_heding {
+    padding-left: 32px;
+    padding-right: 117px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.about_right{
+          display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -2em;
+    
+}
+
+
+.single_conatant1 h1{
+color: #000;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+.single_conatant1 p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 28px;
+    max-width: 355px;
+}
