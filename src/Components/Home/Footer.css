@@ -20,8 +20,6 @@
 }
 
 .footer-content {
-    display: flex;
-    justify-content: space-between;
     margin-top: 5em;
 }
 
@@ -32,10 +30,6 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
-.pb-5 {
-    padding-bottom: 3.25rem;
-    margin-top: -2em;
 }
 .px-28 {
     padding-left: 7rem;
@@ -60,6 +54,7 @@
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    margin-top: 2em;
 }
 
 .footer-contact p,

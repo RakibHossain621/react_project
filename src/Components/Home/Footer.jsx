@@ -13,8 +13,8 @@ const Footer = () => {
                 <div className="footer-top-contact">Call Us On 0111 756 4973</div>
                 </div>
             </div>
-            <div className="container">
-                <div className="footer-content">
+            <div className="container px-[32px]">
+                <div className="footer-content lg:flex md:flex-wrap lg:flex-nowrap  md:gap-[91px] px-[32px] py-[32px] ">
                     <div className="footer-column">
                         <div className="footer-logo">
                             <svg width="207" height="38" viewBox="0 0 207 38" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,14 +25,16 @@ const Footer = () => {
                                 <rect x="90.7778" width="116.111" height="2.11111" fill="#211F1E" />
                                 <rect x="90.7778" y="35.8889" width="116.111" height="2.11111" fill="#211F1E" />
                             </svg>
-                        </div>
-                        <div className="footer-description">
+                            <div className="footer-description">
                             Solid Close is your premier transaction coordination specialist, adeptly managing the intricacies of various deals, from real estate to material assets. Our expert team ensures smooth closings, giving you the freedom and peace of mind to focus on what matters most.
                         </div>
+                        </div>
+                       
                     </div>
-                    <div className="footer-column">
-                        <div className="footer-title pb-5">Contact Details</div>
+                    
+                    <div className="footer-column md:flex-wrap lg:flex-nowrap  md:flex gap-[99px] lg:mt-[-3em] md:mt-1  ">
                         <div className="footer-contact">
+                        <h1 className='footer-title pb-5'>Contact Details</h1>
                             <div className="footer_li_icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
                                     <g clip-path="url(#clip0_1_301)">
@@ -91,11 +93,10 @@ const Footer = () => {
                             </div>
 
                         </div>
-                    </div>
-                    <div className="footer-column">
-                        <div className="footer-title pb-5">Our Services</div>
+                        
                           <div className="footer_wrap_service">
                           <ul className="footer-services">
+                          <h1 className="footer-title pb-5">Our Services</h1>
                             <div className="footer_li_icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7596 1.66663C15.362 1.66663 19.0929 5.39759 19.0929 9.99996C19.0929 14.6023 15.362 18.3333 10.7596 18.3333C6.15723 18.3333 2.42627 14.6023 2.42627 9.99996C2.42627 5.39759 6.15723 1.66663 10.7596 1.66663ZM10.7596 5.83329C8.45842 5.83329 6.59294 7.69877 6.59294 9.99996C6.59294 12.3011 8.45842 14.1666 10.7596 14.1666C13.0608 14.1666 14.9263 12.3011 14.9263 9.99996C14.9263 7.69877 13.0608 5.83329 10.7596 5.83329Z" fill="#211F1E" />
@@ -128,10 +129,10 @@ const Footer = () => {
                             </div>
                        </ul>
                           </div>
-                    </div>
-                    <div className="footer-column">
-                        <div className="footer-title pb-5 ">Our Services</div>
-                        <ul className="footer-services">
+
+                          
+                             <ul className="footer-services">
+                            <h1 className="footer-title lg:pb-5 ">Our Services</h1>
                             <div className="footer_li_icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7596 1.66663C15.362 1.66663 19.0929 5.39759 19.0929 9.99996C19.0929 14.6023 15.362 18.3333 10.7596 18.3333C6.15723 18.3333 2.42627 14.6023 2.42627 9.99996C2.42627 5.39759 6.15723 1.66663 10.7596 1.66663ZM10.7596 5.83329C8.45842 5.83329 6.59294 7.69877 6.59294 9.99996C6.59294 12.3011 8.45842 14.1666 10.7596 14.1666C13.0608 14.1666 14.9263 12.3011 14.9263 9.99996C14.9263 7.69877 13.0608 5.83329 10.7596 5.83329Z" fill="#211F1E" />
@@ -165,7 +166,11 @@ const Footer = () => {
 
                        </ul>
                     </div>
-                </div>
+                 
+                </div>   
+                
+                   
+              
             </div>
         </div>
     );
