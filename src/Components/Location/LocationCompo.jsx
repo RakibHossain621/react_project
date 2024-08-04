@@ -8,7 +8,7 @@ const LocationCompo = ({ image, title, subtitle, subtitle1,roofer1 }) => {
       </div>
       <div className='roofer_head lg:w-[50%] w-[100%] lg:px-[52px] lg:py-[15px] mt-[30px] lg:mt-0'>
         <h1 className='lg:text-[32px] text-[20px] font-semibold text-center md:text-left lg:text-left '> {title} </h1>
-        <div className='subPera'>
+        <div className='subPera p-4 md:p-4 lg:p-0'>
           <p className='text-[14px] font-normal  text-[#2947A9] leading-[122.022%] tracking-[2.8px] mt-10	'> {subtitle} </p>
           <p className='text-[14px] font-normal  text-[#2947A9] leading-[122.022%] tracking-[2.8px] mt-2'> {subtitle1} </p>
         </div>
