@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { FiAlignJustify } from "react-icons/fi";
-
+import { useLocation } from 'react-router-dom';
 const navList = [
   {
     title: 'Home',
@@ -28,12 +28,21 @@ const navList = [
 
 const Navbar = () => {
     const [mobileIcon, setMobileIcon] = useState(false)
-   const handleClick = () =>{
+    const handleClick = () =>{
     setMobileIcon(!mobileIcon)
-   }
+  }
+  const location = useLocation();
+  console.log(location)
+  let bgColor = '';
+  
+  if (location.pathname === '/blog') {
+    bgColor = '#EEF2FF';
+  }
+  
+
   return (
     <header>
-      <div className='flex_container'>
+      <div className="flex_container" style={{ backgroundColor: bgColor }}>
         <div className="logo">
         <svg width="207" height="38" viewBox="0 0 207 38" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="86.5556" height="38" fill="#2947A9"/>
@@ -44,18 +53,7 @@ const Navbar = () => {
      <rect x="90.7778" y="35.8889" width="116.111" height="2.11111" fill="#211F1E"/>
      </svg>
         </div>
-         {/* {
-          mobileIcon ? (
-            <ul className='list_item'>
-          {navList.map(({ title, path }) => (
-            <li key={title}>
-              <Link to={path}>{title}</Link>
-            </li>
-          ))}
-          <button className='contact_btn'>Contact us</button>
-        </ul>
-          ) : ""
-         } */}
+        
 
         <ul className='list_item'>
           {navList.map(({ title, path }) => (
@@ -63,7 +61,8 @@ const Navbar = () => {
               <Link to={path}>{title}</Link>
             </li>
           ))}
-          <button className='contact_btn'>Contact us</button>
+          <Link to='/Contact us' > <button  className='contact_btn'>Contact us</button>  </Link>
+           
         </ul>
         
         <button onClick={handleClick} className="mobile_icon">
@@ -75,3 +74,20 @@ const Navbar = () => {
 }
 
 export default Navbar;
+
+
+
+
+
+ {/* {
+          mobileIcon ? (
+            <ul className='list_item'>
+          {navList.map(({ title, path }) => (
+            <li key={title}>
+              <Link to={path}>{title}</Link>
+            </li>
+          ))}
+          <button className='contact_btn'>Contact us</button>
+        </ul>
+          ) : ""
+         } */}
