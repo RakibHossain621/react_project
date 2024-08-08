@@ -39,7 +39,7 @@ const Services = () => {
           subtitle='EPDM rubber roofing membranes have been successfully installed on hundreds of thousands of large commercial and industrial roofs worldwide.. .EPDM rubber roofing membranes have been successfully installed on hundreds of thousands of large commercial and industrial roofs worldwide...'
           buttontitle='Conservatory Ceiling Insulation'
           icon = 'true'
-          border='border-r border-l border-l-none'
+          border='border-r border-l sm:border-l-none'
         />
         <ServicesCards
           image='Services4.png'

@@ -15,7 +15,7 @@ const Home = () => {
      <Roffing/> 
 
       {/* service section start */}
-      <div className='sec_padding'>
+      <div className=' services sec_padding'>
         <div className="container">
           <div className="service_heading">
             <h1>Our Services</h1>

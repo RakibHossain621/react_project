@@ -2,7 +2,7 @@ import React from 'react'
 
 const Locations = () => {
     return (
-        <div className='wrapper lg:flex gap-[20px] pt-[20px] '>
+        <div className='wrapper lg:flex gap-[20px] pt-[20px] px-[32px] '>
             <div className="left lg:w-[50%] w-[100%]">
                 <h1 className='text-[36px] text-[#000] font-semibold mb-4 '>Direction</h1>
                 <img src="Map.png" alt="map"/>
