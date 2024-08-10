@@ -4,7 +4,7 @@ import './Navbar.css';
 import { FiAlignJustify } from "react-icons/fi";
 
 const navList = [
-  { title: 'Home', path: '/home' },
+  { title: 'Home', path: '/' },
   { title: 'About', path: '/about' },
   { title: 'Services', path: '/services' },
   { title: 'Location', path: '/location' },
