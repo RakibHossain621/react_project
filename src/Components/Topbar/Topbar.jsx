@@ -47,8 +47,8 @@ const Topbar = () => {
     return (
         <div className='topbar'>
             {topbarItems.map(({ icon, phone }, index) => (
-                <div className="topbar_icon" key={index}>
-                    <span> {icon} </span> <span>{phone}</span>
+                <div className="topbar_icon text-[#fff] text-[10px] md:text-[18px] font-semibold" key={index}>
+                    <span className=''> {icon} </span> <span>{phone}</span>
                 </div>
             ))}
         </div>

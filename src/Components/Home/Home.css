@@ -89,23 +89,23 @@ line-height: normal;
 }
 
 
-.hero_left h1{
+/* .hero_left h1{
 font-family: Montserrat;
 font-size: 64px;
 font-weight: 700;
 line-height: 78.02px;
 color: #000000;
 
-}
+} */
 
-.hero_left h1 span {
+/* .hero_left h1 span {
   font-family: Montserrat;
   font-size: 60px;
   font-weight: 700;
   line-height: 78.02px;
   color: #FF5733;
   text-align: center;
-}
+} */
 
 .hero_left p{
 font-family: Montserrat;
@@ -338,15 +338,7 @@ text-align: left;
 .footer-top{
   background-color: snow;
 }
-.topbar{
-  display: none;
-}
-.hero_left h1 {
-  font-size: 45px !important;
-}
-.hero_left h1 span{
-  font-size: 31px !important;
-}
+
 .footer-top-contact{
   display: none;
 }

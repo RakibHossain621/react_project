@@ -6,7 +6,7 @@ export const Hero = () => {
       <div className="container">
         <div className="hero_wrapper flex gap-[21px]">
           <div className="hero_left">
-            <h1>ROOFERS IN <span>MANCHESTER & NORTH CHESHIRE</span></h1><br />
+            <h1 className='md:text-[64px] text-[45px] font-bold leading-[78.02px] text-[#000000]'>ROOFERS IN <span className='md:text-[60px] text-[30px] leading-[78.02px] font-bold text-[#FF5733]'>MANCHESTER & NORTH CHESHIRE</span></h1><br />
             <p>At North West Roofers Ltd we specialise in all aspects of roofing including new roofs, roof repairs, flat roofing, guttering & roof drone <br /> surveys.</p>
           </div>
           <div className="hero_right">

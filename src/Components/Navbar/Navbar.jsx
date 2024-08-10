@@ -39,7 +39,7 @@ const Navbar = () => {
 
         </div>
 
-        <ul className={`list_item ${isOpen ? 'show' : ''}`}>
+        <ul className={`list_item botom-[46%] ${isOpen ? 'show' : ''}`}>
           {navList.map(({ title, path }) => (
             <li key={title}>
               <Link to={path}>{title}</Link>

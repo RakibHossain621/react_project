@@ -70,7 +70,7 @@ body {
     padding: 0;
     margin: 0;
     position: absolute;
-    bottom: 62%;
+    bottom: 46%;
     left: 0;
     background: #ffffff85;
     width: 100%;
@@ -108,23 +108,7 @@ body {
 
 
 @media(max-width:360px){
-  .hero_left h1 {
-    font-size: 48px !important;
+  .list_item {
+    bottom: 46% !important;
   }
-  .hero_left h1 span {
-    font-size: 35px !important; 
-  }
-  .list_item{
-    bottom: 57%;
-  }
-}
-
-@media(max-width:390px){
-  .hero_left h1 {
-    font-size: 48px !important;
-  }
-  .hero_left h1 span {
-    font-size: 35px !important; 
-  }
- 
 }
