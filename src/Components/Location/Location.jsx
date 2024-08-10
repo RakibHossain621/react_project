@@ -18,14 +18,14 @@ const Location = () => {
       </div>
       <div className="container">
         <LocationCompo
-          image='public/Roofer1.png'
+          image='/public/Roofer1.png'
           title='Conservatory Roofs Bolton '
           subtitle='Conversion Rate Optimisation (CRO) is the systematic process of increasing the percentage of website visitors who take a desired action. This action can vary depending on your business goals and could include making a purchase, filling out a form, signing up for a newsletter, or downloading a resource. CRO involves understanding how users navigate your site, what actions they take, and what prevents them from completing your goals.'
           subtitle1='Conversion Rate Optimisation (CRO) is the systematic process of increasing the percentage of website visitors who take a desired action. This action can vary depending on your business goals and could include making a purchase, filling out a form, signing up for a newsletter, or downloading a resource. CRO involves understanding how users navigate your site, what actions they take, and what prevents them from completing your goals.
 '
         />
         <LocationCompo
-          image='public/Roofer1.png'
+          image='/public/Roofer1.png'
           title='Flat Garage Roofs '
           subtitle='Conversion Rate Optimisation (CRO) is the systematic process of increasing the percentage of website visitors who take a desired action. This action can vary depending on your business goals and could include making a purchase, filling out a form, signing up for a newsletter, or downloading a resource. CRO involves understanding how users navigate your site, what actions they take, and what prevents them from completing your goals.'
           subtitle1='Conversion Rate Optimisation (CRO) is the systematic process of increasing the percentage of website visitors who take a desired action. This action can vary depending on your business goals and could include making a purchase, filling out a form, signing up for a newsletter, or downloading a resource. CRO involves understanding how users navigate your site, what actions they take, and what prevents them from completing your goals.'

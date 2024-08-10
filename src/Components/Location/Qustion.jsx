@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import RightArrow from './RightArrow'; // Ensure you have a component for the arrow
+import RightArrow from './RightArrow';
 
 const Question = ({ title }) => {
   const [toggle, setToggle] = useState(false);
