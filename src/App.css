@@ -70,7 +70,7 @@ body {
     padding: 0;
     margin: 0;
     position: absolute;
-    bottom: 46%;
+    bottom: -217px;
     left: 0;
     background: #ffffff85;
     width: 100%;
@@ -103,12 +103,5 @@ body {
   
   .contact_btn:hover {
     background-color: #E04D2C;
-  }
-}
-
-
-@media(max-width:360px){
-  .list_item {
-    bottom: 46% !important;
   }
 }

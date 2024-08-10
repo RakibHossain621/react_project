@@ -25,7 +25,7 @@ const Navbar = () => {
   }
 
   return (
-    <header>
+    <header className='relative'>
       <div className="flex_container" style={{ backgroundColor: bgColor }}>
         <div className="logo">
         <svg width="207" height="38" viewBox="0 0 207 38" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -39,7 +39,7 @@ const Navbar = () => {
 
         </div>
 
-        <ul className={`list_item botom-[46%] ${isOpen ? 'show' : ''}`}>
+        <ul className={`list_item z-20 ${isOpen ? 'show' : ''}`}>
           {navList.map(({ title, path }) => (
             <li key={title}>
               <Link to={path}>{title}</Link>
